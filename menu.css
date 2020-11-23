@@ -1,0 +1,46 @@
+header {
+    background: gray; /*mudar a cor de fundo do cabeçalho*/
+    padding: 10px 0;
+}
+.caixa {
+    position: relative;
+    width: 900px;
+    margin:0 auto;
+}
+.menu {
+    display: inline-block;
+    vertical-align: top;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+nav li {
+    display: inline; /*deixar os textos um do lado do outro*/
+    margin: 0 0 0 15px; /*espaçamento de margem (cima, direira, baixo, esquerda)*/
+}
+
+nav a {
+    text-transform: uppercase; /*deixar o texto em maiúsculo*/
+    color: black; /*mudar a cor da letra*/
+    font-weight: bold; /*colocar o texto em negrito*/
+    font-size: 22px; /*tamanho da fonte*/
+    text-decoration: none; /*decoração do texto, no caso tirar a barrinha de baixo do link*/
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    text-align: center;
+}
